@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-import { useTheme } from '@mui/material/styles'
+// import { useTheme } from '@mui/material/styles'
 
 import {
   Card,
@@ -22,7 +22,7 @@ import { blue } from '@mui/material/colors'
 function LoginCard() {
   const [isPassVisible, setIsPassVisible] = useState(false)
 
-  const appTheme = useTheme()
+  // const appTheme = useTheme()
 
   return (
     <Card sx={{ maxWidth: '500px', backgroundColor: blue[300] }} raised={true}>

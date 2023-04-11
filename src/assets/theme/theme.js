@@ -8,7 +8,8 @@ const appTheme = createTheme({
     },
     secondary: {
       main: '#EAD90F'
-    }
+    },
+    headers: {}
   }
 })
 
