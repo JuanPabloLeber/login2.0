@@ -1,8 +1,9 @@
 import React from 'react'
 import './Login.css'
 
-import LoginCard from '../../components/LoginCard/LoginCard'
 import NavBar from '../../components/NavBar/NavBar'
+import LoginCard from '../../components/LoginCard/LoginCard'
+import Footer from '../../components/Footer/Footer'
 
 function Login() {
   return (
@@ -11,6 +12,7 @@ function Login() {
       <section className="section">
         <LoginCard />
       </section>
+      <Footer />
     </>
   )
 }
